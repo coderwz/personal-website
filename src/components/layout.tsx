@@ -1,10 +1,10 @@
 import Head from "next/head";
-import { ReactNode } from "react";
 import Image from 'next/image';
+import { ReactNode } from "react";
 
-import styles from './layout.module.scss';
 import utilStyles from '@/styles/utils.module.scss';
 import Link from "next/link";
+import styles from './layout.module.scss';
 
 type Props = {
   children?: ReactNode
@@ -32,6 +32,10 @@ const Layout = ({ children, home }: Props) => (
       />
       <meta name="og:title" content={SITE_TITLE} />
       <meta name="twitter:card" content="summary_large_image" />
+      {/* <link
+        rel="stylesheet"
+        href="https://unpkg.com/prismjs@0.0.1/themes/prism-tomorrow.css"
+      /> */}
     </Head>
     <header className={styles.header}>
       {home ? (
