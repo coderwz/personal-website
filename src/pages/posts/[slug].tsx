@@ -4,10 +4,9 @@ import { PostData } from "@/types/post";
 import { getAllPostSlugs, getPostBySlug } from "@/utils/fetch-posts-data";
 import { GetStaticPaths } from "next";
 import Head from "next/head";
-import utilStyles from "@/styles/utils.module.scss";
 
 type Props = {
-  postData: PostData
+  postData: PostData;
 };
 
 const Post = ({ postData }: Props) => (<Layout>
@@ -15,11 +14,11 @@ const Post = ({ postData }: Props) => (<Layout>
     <title>{postData.title}</title>
   </Head>
   <article>
-    <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-    <div className={utilStyles.lightText}>
+    <h1 className='text-3xl font-bold underline mb-4'>{postData.title}</h1>
+    <div className='text-gray-500'>
       <FormattedDate dateString={postData.date} />
     </div>
-    <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+    <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} className="mt-4" />
   </article>
 </Layout>);
 

@@ -2,9 +2,7 @@ import Head from "next/head";
 import Image from 'next/image';
 import { ReactNode } from "react";
 
-import utilStyles from '@/styles/utils.module.scss';
 import Link from "next/link";
-import styles from './layout.module.scss';
 
 type Props = {
   children?: ReactNode
@@ -17,7 +15,7 @@ const name = 'Wen Zhu';
 export const SITE_TITLE = 'Wen Zhu';
 
 const Layout = ({ children, home }: Props) => (
-  <div className={styles.container}>
+  <div className='max-w-xl px-4 mx-auto my-12'>
     <Head>
       <link rel="icon" href="/favicon.ico" />
       <meta
@@ -37,18 +35,18 @@ const Layout = ({ children, home }: Props) => (
         href="https://unpkg.com/prismjs@0.0.1/themes/prism-tomorrow.css"
       /> */}
     </Head>
-    <header className={styles.header}>
+    <header className='flex flex-col items-center'>
       {home ? (
         <>
           <Image
             priority
             src="/images/profile.jpg"
-            className={utilStyles.borderCircle}
+            className='rounded-full'
             height={144}
             width={144}
             alt=""
           />
-          <h1 className={utilStyles.heading2Xl}>{name}</h1>
+          <h1 className='text-4xl mt-4 mb-8 font-bold'>{name}</h1>
         </>
       ) : (
         <>
@@ -56,23 +54,18 @@ const Layout = ({ children, home }: Props) => (
             <Image
               priority
               src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
+              className='rounded-full mb-8'
               height={108}
               width={108}
               alt=""
             />
           </Link>
-          <h2 className={utilStyles.headingLg}>
-            <Link href="/" className={utilStyles.colorInherit}>
-              {name}
-            </Link>
-          </h2>
         </>
       )}
     </header>
     <main>{children}</main>
     {!home && (
-      <div className={styles.backToHome}>
+      <div className='my-4'>
         <Link href="/">← Back to home</Link>
       </div>
     )}
