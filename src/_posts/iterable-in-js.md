@@ -68,13 +68,13 @@ for (const value of nums) {
 ### for...in
 
 ```javascript
-var values = {\"a\": 0, \"b\": 1};
+var values = {"a": 0, "b": 1};
 for (var key in values) {
   console.log(key, values[key]);
 }
 // Output
-// \"a\", 0
-// \"b\", 1
+// "a", 0
+// "b", 1
 ```
 
 ## ES6
@@ -86,13 +86,13 @@ Same as ES5 syntax.
 ### for...of
 
 ```javascript
-const values = {\"a\": 0, \"b\": 1};
+const values = {"a": 0, "b": 1};
 for (const [key, value] of Object.entries(values)) {
   console.log(key, value);
 }
 // Output
-// \"a\", 0
-// \"b\", 1
+// "a", 0
+// "b", 1
 ```
 
 # Iterate an Map
@@ -102,48 +102,48 @@ Only available in ES6
 ### forEach
 
 ```javascript
-const map = new Map([[\"a\", 0], [\"b\", 1]]);
+const map = new Map([["a", 0], ["b", 1]]);
 map.forEach((value, key, this_map) => {
   console.log(value, key, this_map);
 });
 // Output
-// 0 \"a\" Map(2) {\"a\" => 0, \"b\" => 1}
-// 1 \"b\" Map(2) {\"a\" => 0, \"b\" => 1}
+// 0 "a" Map(2) {"a" => 0, "b" => 1}
+// 1 "b" Map(2) {"a" => 0, "b" => 1}
 ```
 
 ### for...of
 
 ```javascript
-const map = new Map([[\"a\", 0], [\"b\", 1]]);
+const map = new Map([["a", 0], ["b", 1]]);
 for (const [key, value] of map) {
   console.log(key, value);
 }
 // Output
-// \"a\", 0
-// \"b\", 1
+// "a", 0
+// "b", 1
 ```
 
 ### Map.prototype.keys()
 
 ```javascript
-const map = new Map([[\"a\", 0], [\"b\", 1]]);
+const map = new Map([["a", 0], ["b", 1]]);
 for (const key of map.keys()) {
   console.log(key, map.get(key));
 }
 // Output
-// \"a\", 0
-// \"b\", 1
+// "a", 0
+// "b", 1
 ```
 ### Map.prototype.entries()
 
 ```javascript
-const map = new Map([[\"a\", 0], [\"b\", 1]]);
+const map = new Map([["a", 0], ["b", 1]]);
 for (const [key, value] of map.entries()) {
   console.log(key, value);
 }
 // Output
-// \"a\", 0
-// \"b\", 1
+// "a", 0
+// "b", 1
 ```
 
 # Iterate a Set
@@ -152,42 +152,42 @@ Only available in ES6
 
 ### for...of
 ```javascript
-const set = new Set([\"a\", \"b\"]);
+const set = new Set(["a", "b"]);
 for (const value of set) {
   console.log(value);
 }
 // Output
-// \"a\"
-// \"b\"
+// "a"
+// "b"
 ```
 ### Set.prototype.keys()
 ```javascript
-const set = new Set([\"a\", \"b\"]);
+const set = new Set(["a", "b"]);
 for (const key of set.keys()) {
   console.log(key);
 }
 // Output
-// \"a\"
-// \"b\"
+// "a"
+// "b"
 ```
 ### Set.prototype.values()
 
 ```javascript
-const set = new Set([\"a\", \"b\"]);
+const set = new Set(["a", "b"]);
 for (const value of set.values()) {
   console.log(value);
 }
 // Output
-// \"a\"
-// \"b\"
+// "a"
+// "b"
 ```
 ### Set.prototype.entries()
 ```javascript
-const set = new Set([\"a\", \"b\"]);
+const set = new Set(["a", "b"]);
 for (const [key, value] of set.entries()) {
   console.log(key, value);
 }
 // Output
-// \"a\" \"a\"
-// \"b\" \"b\"
-``` d
+// "a" "a"
+// "b" "b"
+```

@@ -6,8 +6,6 @@ summary: The Balance Sheet is one of the three major financial statements in a c
 tags: "Finance"
 ---
 
-# The Balance Sheet
-
 ## What is Balance Sheet Statement
 
 When we look at a company's earnings report, `Balance Sheet Statement` is one of the most important financial statements to look at, the other two are `Income Statement` and `Cash Flow Statement`. Basically the balance sheet will tell us what this company owns (`Assets`), what the company owes (`Liabilities`) and the difference is the company's `Worth`. Below is the equation demonstrating the relationship.
@@ -67,10 +65,10 @@ The subitem `Restricted Cash` is usually referred to those cash that are current
 `Balance Sheet` presents the financial picture of the company and it is vital to understand the financial health of the company especially during the challenge time.
 
 ## References
-1. [Financial Statements: A Step-by-Step Guide to Understanding and Creating Financial Reports 2nd Edition - Thomas Ittelson](https://www.amazon.com/gp/product/B004GGU342)
-1. [JD.com 2017 Q3 earnings report](http://media.corporate-ir.net/media_files/IROL/25/253315/2017/JD.com%20Announces%20Third%20Quarter%202017%20Results.pdf)
-1. [Restricted Cash - Investopedia](https://www.investopedia.com/terms/r/restricted-cash.asp)
-1. [Short-Term Investments - Investopedia](https://www.investopedia.com/terms/s/shorterminvestments.asp?ad=dirN&qo=investopediaSiteSearch&qsrc=0&o=40186)
-1. [Advance Payments - Investopedia](https://www.investopedia.com/terms/a/advance-payment.asp)
-1. [Non-Recourse Debt - Investopedia](https://www.investopedia.com/terms/n/nonrecoursedebt.asp)
-1. [Deferred Revenue - Investopedia](https://www.investopedia.com/terms/u/unearnedrevenue.asp)
+- [Financial Statements: A Step-by-Step Guide to Understanding and Creating Financial Reports 2nd Edition - Thomas Ittelson](https://www.amazon.com/gp/product/B004GGU342)
+- [JD.com 2017 Q3 earnings report](http://media.corporate-ir.net/media_files/IROL/25/253315/2017/JD.com%20Announces%20Third%20Quarter%202017%20Results.pdf)
+- [Restricted Cash - Investopedia](https://www.investopedia.com/terms/r/restricted-cash.asp)
+- [Short-Term Investments - Investopedia](https://www.investopedia.com/terms/s/shorterminvestments.asp?ad=dirN&qo=investopediaSiteSearch&qsrc=0&o=40186)
+- [Advance Payments - Investopedia](https://www.investopedia.com/terms/a/advance-payment.asp)
+- [Non-Recourse Debt - Investopedia](https://www.investopedia.com/terms/n/nonrecoursedebt.asp)
+- [Deferred Revenue - Investopedia](https://www.investopedia.com/terms/u/unearnedrevenue.asp)

@@ -6,10 +6,8 @@ summary: \"Change is the constant in software development\". We have to prepare 
 tags: "Design Pattern"
 ---
 
-# Introduction to Design Pattern
-
 ## Summary
-This is a new blog series talking about design patterns. After I started my new job at google, I noticed that Object Oriented Design is heavily used there, even in the client side programming, which compelled me to have a better understanding of Design Patterns/OOP. [Head First Design Pattern](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) is the major reference book used in my blogs.
+This is a new blog series talking about design patterns. After I started my new job at Google, I noticed that Object Oriented Design is heavily used there, even in the client side programming, which compelled me to have a better understanding of Design Patterns/OOP. [Head First Design Pattern](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) is the major reference book used in my blogs.
 
 ## Why do we need Design Pattern
 As a software engineer, we not only want our code working as expected, but also maintainable, scalable and readable. If our code can have such qualities, then we can call them "good code". But how can we make our code "good code", especially in OOP world? There are a lot of proven patterns we can leverage to achieve that. That is why we need to learn design patterns.
@@ -107,4 +105,4 @@ The `Strategy Pattern` defines a family of algorithms, encapsulates each one, an
 Also, we should think at the pattern level. Design patterns don’t go directly into your code, they first go into your BRAIN. So it should happen when we design our application.
 
 ## References
-1. [Head First Design Pattern](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124)
+- [Head First Design Pattern](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124)

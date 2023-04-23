@@ -10,9 +10,6 @@ A great blog:[Startup Playbook](http://playbook.samaltman.com/), from Sam Altman
 
 Following are the notes I took when reading the blog.
 
-## Summary
-A great team, a great team and great execution are the framework to create/find good startup companies.
-
 ## The Idea
 - Clear & Concise
 - Targeted users
@@ -24,11 +21,11 @@ A great team, a great team and great execution are the framework to create/find 
 - Unstoppability, determination, formidability, and resourcefulness.
 - Have the ability to get things done no matter how hard it is.
 - One founder knows product, service; One founder knows sales and marketing. Can be one person.
-- Have a good cofounder > Be a solo founder > Have a bad cofounder
+- Have a good co-founder > Be a solo founder > Have a bad co-founder
 
 ## A Great Product
 - Talk to user -> get feedback -> improve the product.
--\"Do things that don't scale\"
+- "Do things that don't scale"
 - Break things into small pieces and iterate and adapt as you go.
 
 ## Great Execution

@@ -2,15 +2,13 @@
 title: Function - ES6
 author: Wen Zhu
 date: '2017-06-24'
-summary: Generally, there'no fundmental changes in ES6 in terms of `function` but a few minor improvements like parameters, introduction of arrow functions etc.
+summary: Generally, there'no fundamental changes in ES6 in terms of `function` but a few minor improvements like parameters, introduction of arrow functions etc.
 tags: JavaScript
 ---
 
-# Function in ES6
-
 ### Summary
 
-Generally, there'no fundmental changes in ES6 in terms of `function` but a few minor improvements like parameters, introduction of arrow functions etc.
+Generally, there'no fundamental changes in ES6 in terms of `function` but a few minor improvements like parameters, introduction of arrow functions etc.
 
 ### Default Parameters
 
@@ -45,16 +43,16 @@ Unlike other languages, e.g. Python, you don't have to specify default values fo
 In ES5 `non-strict` and `strict mode`, the `arguments` object have different behaviors in terms of if it will be updated inside the function body. For example:
 
 ```javascript
-    function nonStricFunc(first, second) {
-        second = \"updated\";
+    function nonStrictFunc(first, second) {
+        second = "updated";
         console.log(first === arguments[0]); // true
         console.log(second === arguments[1]); // true
     }
     
-    function stricFunc(first, second) {
+    function strictFunc(first, second) {
         'use strict';
         
-        second = \"updated\";
+        second = "updated";
         console.log(first === arguments[0]); // true
         console.log(second === arguments[1]); // false
     }

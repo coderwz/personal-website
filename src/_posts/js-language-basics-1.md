@@ -77,7 +77,7 @@ If we declare a variable with `var` in the front, that means this is a local var
 
 ```javascript
 function foo() {
-    var localVar = \"I'm local.\";
+    var localVar = "I'm local.";
     alert(localVar); // I'm local.
 }
 alert(localVar); // A syntax error thrown, Uncaught ReferenceError: localVar is not defined.
@@ -87,7 +87,7 @@ If we omit the `var` keyword when declaring a variable, the varible will automat
 
 ```javascript
 function foo() {
-    globalVar = \"I'm global.\";
+    globalVar = "I'm global.";
     alert(globalVar); // I'm global.
 }
 alert(globalVar); // I'm global.

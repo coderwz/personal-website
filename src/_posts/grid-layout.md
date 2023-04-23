@@ -6,8 +6,6 @@ summary: CSS Grid Layout is a powerful grid system introduced to support both ro
 tags: CSS
 ---
 
-# CSS Grid Layout
-
 ## Introduction
 
 There have been several attempts in CSS area to tackle layout problem: Table, float, inline-block, etc. All of them are essentially hacks and left out a lot of a lot of important functionality like vertical centering. [Flexbox](http://zhuwen.me/blog/2017/8/flexbox) came out and helped a lot. However flexbox is a 1-dimensional grid system and doesn't work quite well for complex two-dimensional layout. 
@@ -105,5 +103,5 @@ We will try to use Grid Layout technique to create a out blog layout style.
 <iframe width="100%" height="300" src="//jsfiddle.net/coderwz/o7440kwx/embedded/html,css,result/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## References
-1. [CSS tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-1. [MDN: CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+- [CSS tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [MDN: CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)

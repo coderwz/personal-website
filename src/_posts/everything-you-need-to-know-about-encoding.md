@@ -2,11 +2,9 @@
 title: Everything You Need To Know About Encoding
 author: Wen Zhu
 date: '2017-12-21'
-summary: Generally, there'no fundmental changes in ES6 in terms of `function` but a few minor improvements like parameters, introduction of arrow functions etc.
+summary: Generally, there's no fundamental changes in ES6 in terms of `function` but a few minor improvements like parameters, introduction of arrow functions etc.
 tags: CS
 ---
-
-# Everything You Need To Know About Encoding
 
 ## What is encoding and why does it matter
 
@@ -18,7 +16,7 @@ What is this? Everyone understands that this is a sentence indicating I like wri
 ## Encoding schemes
 
 ### ASCII
-In order to convert characters into bytes, the computer need a rule or a lookup table that could map a certain character into certain bytes. The rule or lookup table here is a `Encoding Scheme`. In English world, there are a total of 95 human readable characters, including numbers (0-9), letters(a-z, A-Z) and other non-alphanumeric characters, like \",\", \"=\", \"+\", etc. It also has 33 other values like space, line break, etc, those are not *printable* per se, but still visible in some form and useful to humans. Therefore, there are a total of 128 characters in this `character set` or `charset`. 128 is not a big number in terms of `charset`, we can use 7 bits to fully represent this `charset`, or we need to use 1 byte. This is one of the famous encoding schemes called [`ASCII`](https://en.wikipedia.org/wiki/ASCII).
+In order to convert characters into bytes, the computer need a rule or a lookup table that could map a certain character into certain bytes. The rule or lookup table here is a `Encoding Scheme`. In English world, there are a total of 95 human readable characters, including numbers (0-9), letters(a-z, A-Z) and other non-alphanumeric characters, like ",", "=", "+", etc. It also has 33 other values like space, line break, etc, those are not *printable* per se, but still visible in some form and useful to humans. Therefore, there are a total of 128 characters in this `character set` or `charset`. 128 is not a big number in terms of `charset`, we can use 7 bits to fully represent this `charset`, or we need to use 1 byte. This is one of the famous encoding schemes called [`ASCII`](https://en.wikipedia.org/wiki/ASCII).
 
 ### Unicode
 
@@ -41,15 +39,15 @@ The key to encoding & decoding is that both ends need to stick to the same encod
 
 We often hear the concept that 'XXX language natively support Unicode' or 'XXX language natively doesn't support Unicode'. For example, 'PHP doesn't support Unicode' and 'JavaScript natively supports Unicode'. What does that mean? Whenever we type something in text editor/IDE, it's already been decoded, either in some Unicode encoding scheme or some other one. So what on earth does it mean for a language to natively support or not support Unicode? It basically refers to whether a language assumes one character equals one byte or not. For example in PHP, it has such assumption.
 ```php
-$string = \"加油\";
+$string = "加油";
 echo $string[0];
 ```
 If we execute the php code above on some online editor, it will print an invalid character �, the reason is php will return first byte of `$string`, and the editor try to decode it with `UTF-8` scheme, however,  the first byte is not a valid `UTF-8` code.
 
 For some other programming language like `JavaScript`, if we do similar thing, it will return the first character instead of first byte.
 ```javascript
-const string = \"加油\";
-console.log(string[0]); // \"加\"
+const string = "加油";
+console.log(string[0]); // "加"
 ```
 The reason is very string in JavaScript is `UTF-16` encoded, with encoding scheme known to the parser, it will give the correct character when we manipulate the string.
 
@@ -57,4 +55,4 @@ The reason is very string in JavaScript is `UTF-16` encoded, with encoding schem
 
 
 ## References
-1.  [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
+-  [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)

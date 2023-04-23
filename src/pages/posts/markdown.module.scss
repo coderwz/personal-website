@@ -1,0 +1,28 @@
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+.markdown p,
+.markdown blockquote {
+  @apply my-6;
+}
+
+.markdown h2 {
+  @apply text-3xl mt-6 mb-2 leading-snug;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-4 mb-2 leading-snug;
+}
+
+.markdown h4 {
+  @apply text-xl mt-2 mb-1 leading-snug;
+}
+
+.markdown ul {
+  @apply list-disc ml-4 my-3;
+}
+
+.markdown pre {
+  @apply rounded-md text-sm;
+}

@@ -6,8 +6,6 @@ summary: There are 3 final keyword use cases in Java, for data field, method and
 tags: Java
 ---
 
-# final in Java
-
 There are 3 `final` keyword use cases in Java, for data field, method and class. Below is the notes I took after reading Thinking in Java.
 
 ## `final` for data

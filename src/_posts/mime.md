@@ -6,8 +6,6 @@ summary: An introduction of MIME types used in HTTP headers and explanation of s
 tags: "Web,HTTP"
 ---
 
-# MIME
-
 ## What is MIME
 `Multipurpose Internet Mail Extensions (MIME)` is an internet standard created to extend the format of email to support many others in addition to just ASCII text, originally it was only used in `SMTP` protocol and later on it was extended to support `HTTP`. MIME type is a meta data set in HTTP request/response header indicating the type of the content. Servers/clients will use this formation to process corresponding content, for example, if the response MIME type is `video/ogg`, then the browsers can play the video in the browser. In absence of MIME type in the header, browsers will guess the MIME type by looking at the actual content. This is called `MIME sniffing`. However, different browsers on different platforms may behave differently and there's also security concerns if the content is executable. Note, server can disable MIME sniffing by sending a `X-Content-Type-Options` along with `Content-Type`.
 
@@ -57,7 +55,7 @@ Another interesting note when using `multipart/form-data` is the boundary string
 
 ## References
 
-1. [MIME types - MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
-1. [StackOverflow: application/x-www-form-urlencoded vs multipart/form-data](https://stackoverflow.com/questions/4007969/application-x-www-form-urlencoded-or-multipart-form-data)
-1. [MIME - Wikipedia](https://en.wikipedia.org/wiki/MIME)
-1. [RFC 2045](https://tools.ietf.org/html/rfc2045)
+- [MIME types - MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+- [StackOverflow: application/x-www-form-urlencoded vs multipart/form-data](https://stackoverflow.com/questions/4007969/application-x-www-form-urlencoded-or-multipart-form-data)
+- [MIME - Wikipedia](https://en.wikipedia.org/wiki/MIME)
+- [RFC 2045](https://tools.ietf.org/html/rfc2045)

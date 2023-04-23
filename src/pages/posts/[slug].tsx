@@ -4,6 +4,7 @@ import { PostData } from "@/types/post";
 import { getAllPostSlugs, getPostBySlug } from "@/utils/fetch-posts-data";
 import { GetStaticPaths } from "next";
 import Head from "next/head";
+import markdownStyles from './markdown.module.scss';
 
 type Props = {
   postData: PostData;
@@ -18,7 +19,7 @@ const Post = ({ postData }: Props) => (<Layout>
     <div className='text-gray-500'>
       <FormattedDate dateString={postData.date} />
     </div>
-    <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} className="mt-4" />
+    <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} className={markdownStyles['markdown']} />
   </article>
 </Layout>);
 

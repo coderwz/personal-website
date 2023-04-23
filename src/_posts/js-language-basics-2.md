@@ -6,8 +6,6 @@ summary: In JavaScript, there are 5 simple data types...
 tags: JavaScript
 ---
 
-# Language Basics
-
 ### Data Types
 
 In JavaScript, there are 5 simple data types in JavaScript: *String*, *Number*, *Boolean* and two special types *Null*, *Undefined*. They are also called primitive types. There's also one complex data type: *Object*.
@@ -16,9 +14,9 @@ We can use `typeof` to get the data type of a variable, see following examples.
 
 ```JavaScript
 var msg = 'this is a string';
-alert(typeof msg); // \"string\"
-alert(typeof(msg)); // \"string\", also legal, but not recommended
-alert(typeof 25); // \"number;
+alert(typeof msg); // "string"
+alert(typeof(msg)); // "string", also legal, but not recommended
+alert(typeof 25); // "number";
 ```
 
 However, there a special case here, `typeof null` will return `object` as `null` is considered to be an empty object.

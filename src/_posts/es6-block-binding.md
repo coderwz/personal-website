@@ -6,8 +6,6 @@ summary: One of the major Javascript feature or distinction from other C-based p
 tags: JavaScript
 ---
 
-# Block Binding
-
 ### Summary
 One of the major Javascript feature or distinction from other C-based programming language is that there's no block level scope in Javascript. Things changed in ES6.
 
@@ -98,10 +96,10 @@ console.log(i); // throw a reference error
 Variables declared by `let` will be put into the `Temporal Dead Zone` a.k.a `TDZ` and it will be taken out the `TDZ` once the compiler comes to the line of variable declaration. If the program tries to access the variables in the `TDZ`, a `ReferenceError` will be thrown.
 
 ##### No Redeclaration
-Remember in ES5, if we declare a varible twice with `var`, no errors will be thrown, but if an identifier has been declared and is declared again **inside the same scope**, a SyntaxError will be thrown, see example below.
+Remember in ES5, if we declare a variable twice with `var`, no errors will be thrown, but if an identifier has been declared and is declared again **inside the same scope**, a SyntaxError will be thrown, see example below.
 ```javascript
 let a = 1;
-let a = 2; // SyntaxError: Duplicate declaration \"a\"
+let a = 2; // SyntaxError: Duplicate declaration "a"
 ```
 but
 ```javascript

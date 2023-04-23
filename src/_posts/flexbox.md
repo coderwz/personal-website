@@ -6,8 +6,6 @@ summary: CSS layout is a fundamental part of web development, for a very long ti
 tags: JavaScript
 ---
 
-# Flexbox
-
 ## Why Flexbox?
 
 CSS layout is a fundamental part of web development, for a very long time, `floating` and `positioning` are the only techniques we can use to solve this problem. Due to the "special" behavior of `float`, we need to always keep the ""clear the float" in mind. Let along there are some use cases that we cannot or very difficult to solve it with the `floating` and `positioning` techniques. For example:
@@ -42,7 +40,7 @@ Instead of width and height, flexbox introduced the concepts of `main axis` and 
 
  - **flex-basis**: \\<width> this flex item's basic length in the flex direction.
  - **flex-grow**: \\<number> If combined flex items size is smaller than flex container size, then remaining size will be shared by all flex items by their flex-grow factor proportionally.
- - **flex-shrink**: \\<number> If combined flex items size is larger than flex container size, all flex items will be shrinked to fit the container by their flex-shrink factor proportionally.
+ - **flex-shrink**: \\<number> If combined flex items size is larger than flex container size, all flex items will be shrunk to fit the container by their flex-shrink factor proportionally.
  - **flex**: shorthand for flex-grow,flex-shrink,flex-basis, see this [example](https://css-tricks.com/almanac/properties/f/flex-shrink/) for better understanding.
  - **align-self**: override 'align-items' for a single item. Note: If any of the item's cross-axis margin is set to auto, then align-self is ignored.
  - **order**: \\<number> by default, all flex items have the default order value 0.
