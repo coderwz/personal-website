@@ -2,7 +2,7 @@
 title: Introduction to Design Pattern
 author: Wen Zhu
 date: '2017-08-20'
-summary: \"Change is the constant in software development\". We have to prepare our code to be changeable or maintainable in the future, that is the whole point to apply those well-proven design patterns into our applications.
+summary: '"Change is the constant in software development". We have to prepare our code to be changeable or maintainable in the future, that is the whole point to apply those well-proven design patterns into our applications.'
 tags: "Design Pattern"
 ---
 
