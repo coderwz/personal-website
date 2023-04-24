@@ -15,7 +15,7 @@ const name = 'Wen Zhu';
 export const SITE_TITLE = 'Wen Zhu';
 
 const Layout = ({ children, home }: Props) => (
-  <div className='max-w-xl px-4 mx-auto my-12 font-mono'>
+  <div className='max-w-xl px-4 mx-auto my-24 font-mono'>
     <Head>
       <link rel="icon" href="/favicon.ico" />
       <meta
@@ -40,28 +40,15 @@ const Layout = ({ children, home }: Props) => (
         <>
           <Image
             priority
-            src="/images/profile.jpg"
+            src="/images/me.png"
             className='rounded-full'
             height={144}
             width={144}
-            alt=""
+            alt="Profile picture"
           />
           <h1 className='text-2xl mt-4 mb-12 font-bold'>{name}</h1>
         </>
-      ) : (
-        <>
-          <Link href="/">
-            <Image
-              priority
-              src="/images/profile.jpg"
-              className='rounded-full mb-8'
-              height={108}
-              width={108}
-              alt=""
-            />
-          </Link>
-        </>
-      )}
+      ) : ''}
     </header>
     <main>{children}</main>
     {!home && (
